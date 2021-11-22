@@ -1,0 +1,6 @@
+spec:
+  containers:
+    image: vadimdrozdov/site
+    name: notebook
+    securityContext:
+      privileged: true
